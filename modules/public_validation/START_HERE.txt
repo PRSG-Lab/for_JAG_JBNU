@@ -1,0 +1,30 @@
+Survey Review public-leveling validation package v2.2.0
+
+The v2.1 runtime audit incorrectly rejected nine valid multiple-output function declarations.
+This archive contains five callable root entry points and 45 supporting MATLAB functions.
+
+Recommended order in MATLAB (R2021b or later):
+
+1. Set Current Folder to this package root.
+2. Run:
+       clear functions
+       rehash
+       A = RUN_PACKAGE_AUDIT();
+   Confirm Function-name mismatches = 0 and OVERALL PASS = 1.
+3. Run the bundled end-to-end fixture test:
+       RUN_OFFLINE_SELFTEST
+4. Download public NOAA NGS observation and benchmark files as described in
+   data/raw/ngs/README.txt, place them in that directory, then run:
+       RUN_PUBLIC_QUICK
+5. After checking the quick output, run:
+       RUN_PUBLIC_FULL
+
+RUN_PUBLIC_QUICK is a function file at the package root:
+    RUN_PUBLIC_QUICK.m
+It may be called as RUN_PUBLIC_QUICK or RUN_PUBLIC_QUICK().
+
+Important:
+- RUN_PUBLIC_QUICK falls back to the bundled fixture only when public files are absent.
+  Such a run is marked OFFLINE_FIXTURE and is not manuscript evidence.
+- RUN_PUBLIC_FULL never falls back; it requires public files.
+- Each run creates a new timestamped directory and ZIP under runs/.

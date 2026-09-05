@@ -1,0 +1,6 @@
+ProjectID,PageURL,ObservationFile,BenchmarkFile,ObservationURL,BenchmarkURL,Notes
+L20346,https://geodesy.noaa.gov/datasheets/leveling-projects/index.html?HGZ=L20346,L20346_observations.geojson,L20346_benchmarks.geojson,,,Official example project; use page download buttons
+L24718_51,https://geodesy.noaa.gov/datasheets/leveling-projects/index.html?HGZ=L24718%2F51,L24718_51_observations.geojson,L24718_51_benchmarks.geojson,,,Official example project; replace slash with underscore in local filenames
+L11218,https://geodesy.noaa.gov/datasheets/leveling-projects/index.html?HGZ=L11218,L11218_observations.geojson,L11218_benchmarks.geojson,,,Official example project; use page download buttons
+L18355,https://geodesy.noaa.gov/datasheets/leveling-projects/index.html?HGZ=L18355,L18355_observations.geojson,L18355_benchmarks.geojson,,,Example highlighted by NOAA product announcement
+L26952,https://geodesy.noaa.gov/datasheets/leveling-projects/index.html?HGZ=L26952,L26952_observations.geojson,L26952_benchmarks.geojson,,,Public page known to expose observations and benchmark downloads

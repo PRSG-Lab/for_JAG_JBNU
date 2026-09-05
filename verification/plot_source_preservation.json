@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "modules/gsvs17/gsvs17_min_validation.m",
+      "plot_block_sha256": "c6497ab0b7966cbda4626dc3b7b743515d75c010046c1bde3ba0e59ee1735a64",
+      "plot_block_identical": true,
+      "all_CFG_assignments_identical": true
+    },
+    {
+      "file": "modules/gsvs17/gsvs17_addendum.m",
+      "plot_block_sha256": "b7bd94ecc0fb13cbc954a9caeea234adb4da783b63a51ca89f82c6489e26bed7",
+      "plot_block_identical": true,
+      "all_CFG_assignments_identical": true
+    },
+    {
+      "file": "modules/gsvs17/apply_font_size.m",
+      "whole_file_identical": true,
+      "sha256": "5939b747f67494a0ffc898379b7403876740db3a55a6fbb58a15b1bc4d22f59a"
+    },
+    {
+      "file": "modules/public_validation/matlab/generate_public_figures.m",
+      "whole_file_identical": true,
+      "sha256": "ebb29decf8bab9031f3f0abcd8f993e8dd4dd20a969e9ba095215c9a2c166c83"
+    },
+    {
+      "file": "modules/public_validation/matlab/save_figure_bundle.m",
+      "whole_file_identical": true,
+      "sha256": "3264bc7323a59566baedaeffa7380fbb2b7a92293b4519eb74963de970d64666"
+    },
+    {
+      "file": "modules/public_validation/matlab/figure_readability_audit.m",
+      "whole_file_identical": true,
+      "sha256": "e6d62c53d09c0552288ece85483c07ea4821da09670d98e52522e2bd1ba9e4db"
+    },
+    {
+      "file": "modules/public_validation/matlab/public_validation_config.m",
+      "whole_file_identical": true,
+      "sha256": "4312e34b3492d331dd619d0f74ec7e460f911e66c562a66698545558170d1033"
+    }
+  ]
+}

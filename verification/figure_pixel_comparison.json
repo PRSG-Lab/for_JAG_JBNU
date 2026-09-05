@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "compared_figures": 15,
+  "checks": [
+    {
+      "stage": "GSVS17 baseline",
+      "figure": "fig1_variance_vs_length.png",
+      "pixels_identical": true,
+      "size": [
+        2813,
+        2188
+      ]
+    },
+    {
+      "stage": "GSVS17 baseline",
+      "figure": "fig2_tau_inference.png",
+      "pixels_identical": true,
+      "size": [
+        4375,
+        1938
+      ]
+    },
+    {
+      "stage": "GSVS17 baseline",
+      "figure": "fig3_model_diagnostics.png",
+      "pixels_identical": true,
+      "size": [
+        4375,
+        1938
+      ]
+    },
+    {
+      "stage": "GSVS17 baseline",
+      "figure": "fig4_variance_decomposition.png",
+      "pixels_identical": true,
+      "size": [
+        4375,
+        1938
+      ]
+    },
+    {
+      "stage": "GSVS17 baseline",
+      "figure": "fig5_common_mode_check.png",
+      "pixels_identical": true,
+      "size": [
+        2813,
+        2188
+      ]
+    },
+    {
+      "stage": "GSVS17 addendum",
+      "figure": "fig1_variance_vs_length.png",
+      "pixels_identical": true,
+      "size": [
+        3063,
+        2375
+      ]
+    },
+    {
+      "stage": "GSVS17 addendum",
+      "figure": "fig3_model_diagnostics.png",
+      "pixels_identical": true,
+      "size": [
+        4532,
+        2000
+      ]
+    },
+    {
+      "stage": "GSVS17 addendum",
+      "figure": "fig4_variance_decomposition.png",
+      "pixels_identical": true,
+      "size": [
+        4532,
+        2000
+      ]
+    },
+    {
+      "stage": "GSVS17 addendum",
+      "figure": "fig6_powerlaw_exponent.png",
+      "pixels_identical": true,
+      "size": [
+        3063,
+        2375
+      ]
+    },
+    {
+      "stage": "public fixture",
+      "figure": "Fig01_public_network.png",
+      "pixels_identical": true,
+      "size": [
+        2815,
+        1948
+      ]
+    },
+    {
+      "stage": "public fixture",
+      "figure": "Fig02_calibration_diagnostic.png",
+      "pixels_identical": true,
+      "size": [
+        2104,
+        1832
+      ]
+    },
+    {
+      "stage": "public fixture",
+      "figure": "Fig03_method_performance.png",
+      "pixels_identical": true,
+      "size": [
+        2913,
+        2012
+      ]
+    },
+    {
+      "stage": "public fixture",
+      "figure": "Fig04_consistency_width_tradeoff.png",
+      "pixels_identical": true,
+      "size": [
+        2399,
+        1898
+      ]
+    },
+    {
+      "stage": "public fixture",
+      "figure": "Fig05_casewise_tradeoff.png",
+      "pixels_identical": true,
+      "size": [
+        2229,
+        1831
+      ]
+    },
+    {
+      "stage": "public fixture",
+      "figure": "Fig06_scale_sensitivity.png",
+      "pixels_identical": true,
+      "size": [
+        2813,
+        1857
+      ]
+    }
+  ],
+  "scope": "Same MATLAB R2026a host, original and integrated default settings; rendered PNG pixels compared."
+}

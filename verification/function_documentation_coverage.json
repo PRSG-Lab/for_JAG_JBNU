@@ -1,0 +1,479 @@
+{
+  "matlab_files": 72,
+  "function_declarations": 118,
+  "all_names_in_README": true,
+  "functions": [
+    {
+      "file": "JAG_CONFIG.m",
+      "name": "JAG_CONFIG"
+    },
+    {
+      "file": "RUN_JAG.m",
+      "name": "RUN_JAG"
+    },
+    {
+      "file": "+jag/run_public.m",
+      "name": "run_public"
+    },
+    {
+      "file": "+jag/write_json.m",
+      "name": "write_json"
+    },
+    {
+      "file": "+jag/run_gsvs17.m",
+      "name": "run_gsvs17"
+    },
+    {
+      "file": "+jag/gsvs_options.m",
+      "name": "gsvs_options"
+    },
+    {
+      "file": "+jag/absolute_path.m",
+      "name": "absolute_path"
+    },
+    {
+      "file": "+jag/validate_config.m",
+      "name": "validate_config"
+    },
+    {
+      "file": "+jag/audit.m",
+      "name": "audit"
+    },
+    {
+      "file": "+jag/selftest.m",
+      "name": "selftest"
+    },
+    {
+      "file": "+jag/sha256.m",
+      "name": "sha256"
+    },
+    {
+      "file": "+jag/new_run.m",
+      "name": "new_run"
+    },
+    {
+      "file": "+jag/restore_environment.m",
+      "name": "restore_environment"
+    },
+    {
+      "file": "+jag/verify_sources.m",
+      "name": "verify_sources"
+    },
+    {
+      "file": "tests/integration_tests.m",
+      "name": "integration_tests"
+    },
+    {
+      "file": "modules/gsvs17/fit_variance_ml.m",
+      "name": "fit_variance_ml"
+    },
+    {
+      "file": "modules/gsvs17/fit_variance_ml.m",
+      "name": "objective"
+    },
+    {
+      "file": "modules/gsvs17/fit_variance_ml.m",
+      "name": "unpack"
+    },
+    {
+      "file": "modules/gsvs17/gsvs17_min_validation.m",
+      "name": "gsvs17_min_validation"
+    },
+    {
+      "file": "modules/gsvs17/gsvs17_min_validation.m",
+      "name": "corrLocal"
+    },
+    {
+      "file": "modules/gsvs17/gsvs17_min_validation.m",
+      "name": "ternary"
+    },
+    {
+      "file": "modules/gsvs17/apply_font_size.m",
+      "name": "apply_font_size"
+    },
+    {
+      "file": "modules/gsvs17/gsvs17_addendum.m",
+      "name": "gsvs17_addendum"
+    },
+    {
+      "file": "modules/gsvs17/gsvs17_addendum.m",
+      "name": "fit_powerlaw"
+    },
+    {
+      "file": "modules/gsvs17/gsvs17_addendum.m",
+      "name": "corrLocal"
+    },
+    {
+      "file": "modules/gsvs17/parse_gsvs17_lvl.m",
+      "name": "parse_gsvs17_lvl"
+    },
+    {
+      "file": "modules/gsvs17/parse_gsvs17_lvl.m",
+      "name": "emptySection"
+    },
+    {
+      "file": "modules/gsvs17/parse_gsvs17_lvl.m",
+      "name": "nameParts"
+    },
+    {
+      "file": "modules/gsvs17/parse_gsvs17_lvl.m",
+      "name": "str2dateNum"
+    },
+    {
+      "file": "modules/gsvs17/build_fb_pairs.m",
+      "name": "build_fb_pairs"
+    },
+    {
+      "file": "modules/gsvs17/build_fb_pairs.m",
+      "name": "emptyPair"
+    },
+    {
+      "file": "modules/gsvs17/statlib_local.m",
+      "name": "statlib_local"
+    },
+    {
+      "file": "modules/gsvs17/statlib_local.m",
+      "name": "chi2sf"
+    },
+    {
+      "file": "modules/gsvs17/statlib_local.m",
+      "name": "chi2inv"
+    },
+    {
+      "file": "modules/gsvs17/statlib_local.m",
+      "name": "norminvL"
+    },
+    {
+      "file": "modules/gsvs17/statlib_local.m",
+      "name": "prctileL"
+    },
+    {
+      "file": "modules/public_validation/RUN_OFFLINE_SELFTEST.m",
+      "name": "RUN_OFFLINE_SELFTEST"
+    },
+    {
+      "file": "modules/public_validation/RUN_PACKAGE_AUDIT.m",
+      "name": "RUN_PACKAGE_AUDIT"
+    },
+    {
+      "file": "modules/public_validation/RUN_PUBLIC_QUICK.m",
+      "name": "RUN_PUBLIC_QUICK"
+    },
+    {
+      "file": "modules/public_validation/RUN_PUBLIC_FULL.m",
+      "name": "RUN_PUBLIC_FULL"
+    },
+    {
+      "file": "modules/public_validation/RUN_OPEN_NGS_PROJECT_PAGES.m",
+      "name": "RUN_OPEN_NGS_PROJECT_PAGES"
+    },
+    {
+      "file": "modules/public_validation/matlab/summarize_method_table.m",
+      "name": "summarize_method_table"
+    },
+    {
+      "file": "modules/public_validation/matlab/robust_nnls2.m",
+      "name": "robust_nnls2"
+    },
+    {
+      "file": "modules/public_validation/matlab/robust_nnls2.m",
+      "name": "nnls2_weighted"
+    },
+    {
+      "file": "modules/public_validation/matlab/required_package_files.m",
+      "name": "required_package_files"
+    },
+    {
+      "file": "modules/public_validation/matlab/figure_readability_audit.m",
+      "name": "figure_readability_audit"
+    },
+    {
+      "file": "modules/public_validation/matlab/value_to_double.m",
+      "name": "value_to_double"
+    },
+    {
+      "file": "modules/public_validation/matlab/normalize_field_name.m",
+      "name": "normalize_field_name"
+    },
+    {
+      "file": "modules/public_validation/matlab/hash_file_sha256.m",
+      "name": "hash_file_sha256"
+    },
+    {
+      "file": "modules/public_validation/matlab/open_ngs_project_pages.m",
+      "name": "open_ngs_project_pages"
+    },
+    {
+      "file": "modules/public_validation/matlab/simple_percentile.m",
+      "name": "simple_percentile"
+    },
+    {
+      "file": "modules/public_validation/matlab/split_public_cases.m",
+      "name": "split_public_cases"
+    },
+    {
+      "file": "modules/public_validation/matlab/split_public_cases.m",
+      "name": "collect_case_rows"
+    },
+    {
+      "file": "modules/public_validation/matlab/split_public_cases.m",
+      "name": "local_case_tables"
+    },
+    {
+      "file": "modules/public_validation/matlab/read_primary_function_name.m",
+      "name": "read_primary_function_name"
+    },
+    {
+      "file": "modules/public_validation/matlab/generate_public_figures.m",
+      "name": "generate_public_figures"
+    },
+    {
+      "file": "modules/public_validation/matlab/generate_public_figures.m",
+      "name": "short_method_name"
+    },
+    {
+      "file": "modules/public_validation/matlab/public_validation_config.m",
+      "name": "public_validation_config"
+    },
+    {
+      "file": "modules/public_validation/matlab/write_text_file.m",
+      "name": "write_text_file"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_leveling_files.m",
+      "name": "parse_leveling_files"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_leveling_files.m",
+      "name": "empty_observation_table"
+    },
+    {
+      "file": "modules/public_validation/matlab/value_to_string.m",
+      "name": "value_to_string"
+    },
+    {
+      "file": "modules/public_validation/matlab/canonicalize_station_pairs.m",
+      "name": "canonicalize_station_pairs"
+    },
+    {
+      "file": "modules/public_validation/matlab/find_public_validation_cases.m",
+      "name": "find_public_validation_cases"
+    },
+    {
+      "file": "modules/public_validation/matlab/find_public_validation_cases.m",
+      "name": "sample_pairs"
+    },
+    {
+      "file": "modules/public_validation/matlab/find_public_validation_cases.m",
+      "name": "cases_to_tables"
+    },
+    {
+      "file": "modules/public_validation/matlab/find_public_validation_cases.m",
+      "name": "route_row"
+    },
+    {
+      "file": "modules/public_validation/matlab/safe_mkdir.m",
+      "name": "safe_mkdir"
+    },
+    {
+      "file": "modules/public_validation/matlab/resolve_input_files.m",
+      "name": "resolve_input_files"
+    },
+    {
+      "file": "modules/public_validation/matlab/write_json_file.m",
+      "name": "write_json_file"
+    },
+    {
+      "file": "modules/public_validation/matlab/build_network.m",
+      "name": "build_network"
+    },
+    {
+      "file": "modules/public_validation/matlab/save_figure_bundle.m",
+      "name": "save_figure_bundle"
+    },
+    {
+      "file": "modules/public_validation/matlab/make_json_compatible.m",
+      "name": "make_json_compatible"
+    },
+    {
+      "file": "modules/public_validation/matlab/timestamp_string.m",
+      "name": "timestamp_string"
+    },
+    {
+      "file": "modules/public_validation/matlab/clean_and_collapse_observations.m",
+      "name": "clean_and_collapse_observations"
+    },
+    {
+      "file": "modules/public_validation/matlab/clean_and_collapse_observations.m",
+      "name": "first_nonempty"
+    },
+    {
+      "file": "modules/public_validation/matlab/clean_and_collapse_observations.m",
+      "name": "coords_for_node"
+    },
+    {
+      "file": "modules/public_validation/matlab/log_message.m",
+      "name": "log_message"
+    },
+    {
+      "file": "modules/public_validation/matlab/infer_project_id.m",
+      "name": "infer_project_id"
+    },
+    {
+      "file": "modules/public_validation/matlab/get_alias_value.m",
+      "name": "get_alias_value"
+    },
+    {
+      "file": "modules/public_validation/matlab/method_coefficients_public.m",
+      "name": "method_coefficients_public"
+    },
+    {
+      "file": "modules/public_validation/matlab/method_coefficients_public.m",
+      "name": "add"
+    },
+    {
+      "file": "modules/public_validation/matlab/paired_method_bootstrap.m",
+      "name": "paired_method_bootstrap"
+    },
+    {
+      "file": "modules/public_validation/matlab/paired_method_bootstrap.m",
+      "name": "paired_case_diff"
+    },
+    {
+      "file": "modules/public_validation/matlab/find_disjoint_paths.m",
+      "name": "find_disjoint_paths"
+    },
+    {
+      "file": "modules/public_validation/matlab/minimax_route_weights.m",
+      "name": "minimax_route_weights"
+    },
+    {
+      "file": "modules/public_validation/matlab/calibrate_public_covariance.m",
+      "name": "calibrate_public_covariance"
+    },
+    {
+      "file": "modules/public_validation/matlab/calibrate_public_covariance.m",
+      "name": "calibration_rows"
+    },
+    {
+      "file": "modules/public_validation/matlab/convert_height_to_m.m",
+      "name": "convert_height_to_m"
+    },
+    {
+      "file": "modules/public_validation/matlab/convert_length_to_km.m",
+      "name": "convert_length_to_km"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_ngs_benchmark_geojson.m",
+      "name": "parse_ngs_benchmark_geojson"
+    },
+    {
+      "file": "modules/public_validation/matlab/public_scale_sensitivity.m",
+      "name": "public_scale_sensitivity"
+    },
+    {
+      "file": "modules/public_validation/matlab/compute_path_statistics.m",
+      "name": "compute_path_statistics"
+    },
+    {
+      "file": "modules/public_validation/matlab/package_integrity_audit.m",
+      "name": "package_integrity_audit"
+    },
+    {
+      "file": "modules/public_validation/matlab/package_integrity_audit.m",
+      "name": "manifest_consistency"
+    },
+    {
+      "file": "modules/public_validation/matlab/package_integrity_audit.m",
+      "name": "mismatch_text"
+    },
+    {
+      "file": "modules/public_validation/matlab/package_integrity_audit.m",
+      "name": "same_path"
+    },
+    {
+      "file": "modules/public_validation/matlab/package_integrity_audit.m",
+      "name": "run_code_analyzer"
+    },
+    {
+      "file": "modules/public_validation/matlab/package_integrity_audit.m",
+      "name": "is_fatal_analyzer_message"
+    },
+    {
+      "file": "modules/public_validation/matlab/package_integrity_audit.m",
+      "name": "write_function_inventory"
+    },
+    {
+      "file": "modules/public_validation/matlab/package_integrity_audit.m",
+      "name": "format_report"
+    },
+    {
+      "file": "modules/public_validation/matlab/run_public_validation.m",
+      "name": "run_public_validation"
+    },
+    {
+      "file": "modules/public_validation/matlab/run_public_validation.m",
+      "name": "write_failure_report"
+    },
+    {
+      "file": "modules/public_validation/matlab/run_public_validation.m",
+      "name": "write_key_results_summary"
+    },
+    {
+      "file": "modules/public_validation/matlab/public_validation_unit_tests.m",
+      "name": "public_validation_unit_tests"
+    },
+    {
+      "file": "modules/public_validation/matlab/public_validation_unit_tests.m",
+      "name": "cleanup_temp"
+    },
+    {
+      "file": "modules/public_validation/matlab/evaluate_public_methods.m",
+      "name": "evaluate_public_methods"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_tabular_observations.m",
+      "name": "parse_tabular_observations"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_tabular_observations.m",
+      "name": "find_alias_column"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_tabular_observations.m",
+      "name": "table_scalar"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_tabular_observations.m",
+      "name": "get_string_column"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_tabular_observations.m",
+      "name": "get_numeric_column"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_ngs_observation_geojson.m",
+      "name": "parse_ngs_observation_geojson"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_ngs_observation_geojson.m",
+      "name": "empty_table"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_ngs_observation_geojson.m",
+      "name": "numeric_column"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_ngs_observation_geojson.m",
+      "name": "map_ssn_to_pid"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_ngs_observation_geojson.m",
+      "name": "lookup_coords"
+    },
+    {
+      "file": "modules/public_validation/matlab/parse_ngs_observation_geojson.m",
+      "name": "line_endpoints"
+    }
+  ]
+}

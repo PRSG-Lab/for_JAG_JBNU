@@ -1,0 +1,15 @@
+{
+  "MatlabVersion": "26.1.0.3312084 (R2026a) Update 4",
+  "AuditPassed": true,
+  "QuickCompleted": true,
+  "DataMode": "OFFLINE_FIXTURE",
+  "EnvironmentRestored": true,
+  "ExistingFigurePreserved": true,
+  "SourceIntegrity": {
+    "CheckedFiles": 199,
+    "FailedFiles": [],
+    "Passed": true
+  },
+  "ResultArchive": "PublicLeveling_quick_20260905_163540_694.zip",
+  "ResultArchiveContainsUnifiedManifest": true
+}

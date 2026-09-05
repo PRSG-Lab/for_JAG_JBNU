@@ -1,0 +1,103 @@
+{
+  "MatlabVersion": "26.1.0.3312084 (R2026a) Update 4",
+  "Checks": [
+    {
+      "Name": "GSVS17 baseline/data",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/descriptives",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/M0",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/M1",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/LRT",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/profile",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/bootstrap",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/derived",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/commonMode",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/binned",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 baseline/pairs",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 addendum/subsets",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 addendum/powerlaw",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 addendum/identifiability",
+      "Passed": true
+    },
+    {
+      "Name": "GSVS17 addendum/binnedEqualCount",
+      "Passed": true
+    },
+    {
+      "Name": "Public fixture/cases",
+      "Passed": true
+    },
+    {
+      "Name": "Public fixture/caseSummary",
+      "Passed": true
+    },
+    {
+      "Name": "Public fixture/routeDetails",
+      "Passed": true
+    },
+    {
+      "Name": "Public fixture/trainCases",
+      "Passed": true
+    },
+    {
+      "Name": "Public fixture/testCases",
+      "Passed": true
+    },
+    {
+      "Name": "Public fixture/calibration",
+      "Passed": true
+    },
+    {
+      "Name": "Public fixture/validation",
+      "Passed": true
+    },
+    {
+      "Name": "Public fixture/splitReport",
+      "Passed": true
+    }
+  ],
+  "NumericalEquivalencePassed": true,
+  "FinalAuditPassed": true,
+  "EnvironmentRestoredAfterSuccess": true,
+  "MissingPublicFullRejected": true,
+  "EnvironmentRestoredAfterFailure": true,
+  "AllPassed": true
+}
